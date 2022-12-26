@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const url = "http://localhost:4001/";
-const url = "http://ecombackend01.onrender.com/";
+const url = "https://ecombackend01.onrender.com/";
 
 export const loginUser = (email, password) => async (dispatch) => {
   try {
